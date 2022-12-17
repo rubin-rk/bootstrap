@@ -1,0 +1,258 @@
+!+tab-->create default html code automatically
+lg-->large device
+md-->medium device
+sm-->small device
+xs-->extra small device
+container-->text space 
+container well -->text background is visual
+container-fluid well-->full size page text
+
+shift+copy+down arrow-->lines copying
+
+   text colors
+
+default color-->black
+text-primary-->blue color
+text-success-->green'
+text-info-->light blue
+text-warning-->dark yellow
+text-danger-->red
+
+   text background colors
+
+bg-primary-->blue color
+bg-success-->green color
+bg-info-->light blue
+bg-warning-->dark yellow
+bg-danger-->red
+
+       text-highlights
+
+lead-->big & bold
+small-->small & bold
+
+        text alignment
+text-left
+text-right
+text-center
+text-justify
+
+         change fonts
+
+text-lowercase
+
+text-uppercase
+text-capitalize
+
+          text list items 
+
+list-unstyled-->remove bullet icons
+list-inline-->align all list in single list
+
+         table
+
+tables-->create table format set value automatically arranged
+
+table table-border--->created border in table
+table table-sstriped-->set nth child color 
+table table-hover-->just move cursor then color it will be  changed 
+table table-condensed-->removed waste space
+table-responsive-->page responsive for all page
+
+            img 
+img-responsive -->adjusted image any desktop,mobile,tab etc
+img-responsive img-rounded-->corner only rounded
+img-responsive img-circle-->img shape get oval or circle
+img-responsive img-thumbnail-->get frame border in img
+
+
+       buttons
+btn-->change default to style button
+btn btn-success--.>style button with green color
+btn btn-primary-->blue color with style button
+btn btn-warning-->style button with dark yellow color
+btn btn-danger-->red color with style button
+btn btn-info-->dark blue with style button
+
+btn btn-success btn-xs-->extra small
+btn btn-success btn-sm-->small button
+btn btn-success btn-lg--->large button
+btn btn-success btn-block-->expend to div class size
+active--button is used
+disabled-->button is not used
+
+    create different type of button
+anchor tag--><a href="#" class="btn btn-success ">anchor button </a>
+input tag--><input type="button/submit" class="btn btn-danger" value="button">
+
+    button groups
+
+btn-group-->all button set group and union
+btn-group-lg-->group large
+btn--group--sm-->group small
+btn-group-xs-->group extra small
+
+      btn-group btn-group-justified
+anchor tag-->it is used to hole justified this one is common
+button tag-->every button create btn-grop then used to hole justified
+
+       button group with dropdown
+
+dropdrown-toggle-->join button & span 
+data-toggle-->once click show list
+dropdown-menu-->set menu disable automatically show
+     
+             bootstrap glyphicons
+
+go to bootstap->component->glyphicons
+icon use to italic tag.
+
+              badges and label
+
+badge-->use to inside span tag
+label-->use to inside span tag
+label label-default--->show default color
+label label-primary--->blue color
+label label-danger-->red color
+
+                   progress bar
+
+  progress--> create a empty progress bar
+  progress-bar ---> inside use style property set progress complete % width:45%
+  progress-bar progress-bar-success-->complete % change to green color
+  progress-bar progress-bar-warning/info/danger/primary-->change color
+  style="width:45%"--->bar fill by percentage
+     
+           speech property
+ 
+role==>"progressbar"
+aria-valuemin==>select minimum value
+aria-valuemax==>select maximum value
+aria-valuenow==>enter current value
+
+             create list short cut
+
+ul>{$}*5--->create 5 list 
+
+               page nation
+
+pagination-->given page nation inside of ul class then use anchor tag pge 1 click go to another page so we can use anchor tag
+active-->given inside the li tage
+disabled-->given inside the li tag
+pagination pagination-lg/sm/md/xs-->size alter
+
+               breadcrums
+
+breadcrum-->give inside ul tag 
+active-->inside li tage remove anchor tag 
+
+                create dummy paragraph
+
+p>lump200-->create 200 line dummy paragraph automatically
+li>a-->create list inside anchor tag automatically
+
+                 pager
+
+pager-->give inside ul tag.
+previous==>give inside li tag
+next-->give inside li tag
+
+               list groups items
+
+ul.list-group>li.list-group-item{item-$}-->create unorder list automatically with classes
+div.list-group>a.list-group-item{Item-$}-->create list group item
+active-->use inside anchor tag
+disable-->use inside anchor tag
+
+                  panel 
+
+panel-->create a panel 
+panel-heading-->giving a heading
+panel-body-->write a some content
+panel-footer-->write a down body content
+
+                   
+                 dropdown
+
+dropdown-->is a primary class
+caret--->give inside span tag then it is a class property
+data-toggle==>it is connect to the list and button
+dropdown-menu-->give mension inside ul tag
+divider-->give the 2nd half list 
+dropdown-header-->giving some heading for drop downlist
+active/disable -->it is used to li tag inside
+
+dropdown-menu dropdown-menu-right--->dropdown list align right
+
+                 dropup
+
+dropup-->create a dropup class
+caret--->give inside span tag then it is a class property
+data-toggle==>it is connect to the list and button
+dropdown-menu-->give mension inside ul tag
+divider-->give the 2nd half list 
+dropdown-header-->giving some heading for drop downlist
+active/disable -->it is used to li tag inside
+dropdown-menu dropdown-menu-right--->dropdown list align right
+  
+                       collapse(when click to open again click close)
+
+data-toggle--->link to sub collapse class 
+data-target-->reference by div tag id
+
+                           tabs
+
+nav--->item arrange by vertical
+nav nav-tabs-->items arrange by horiontal use to ul tags
+
+
+                            pills
+
+nav-->item list arrange by vertical
+nav-pills-->list item arrange by horiontal
+nav nav-pills nav-stacked---> arrange by vertical
+active/disabled --use to able
+                     
+                            dynamically tab
+
+nav nav-tab-->arrage horiontal
+tab-content-->all parent class anchor tag inside data-toggle="tab" href="refer to ids" of  tab-pane fade
+
+                             dynamically pills
+
+nav nav-pills-->arrage horiontal
+tab-content-->all parent class anchor tag inside data-toggle="tab" href="refer to ids" of  tab-pane fade
+
+                              navbar
+
+
+nav-->create navigation bar window top
+navbar navbar-inverse--->black color fill full background
+container-fluid-->full window cover
+navbar-header--> to write a heading
+navbar-band---give to set brand name
+dropdown-->create a drop down
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

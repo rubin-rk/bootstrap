@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scrollspy</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body{
+            position:relative;
+        }
+    </style>
+ </head>
+<body class="text-white" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <nav class="navbar navbar-expand-lg bg-success fixed-top " >
+        <div class="container-fluid">
+            <!-- <div class="navbar-header" > -->
+                <!-- <button type="button" class="nav-bar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> -->
+                <a href=""class="navbar-brand" style="margin-left: 80px;"> Meganar Tech</a>
+                <!-- <button class="navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar"
+                aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <!-- </div> -->
+            <!-- header End -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse "id="mynavbar">
+            <ul class="nav nav-tabs navbar-right" style="margin-right: 50px;" >
+                <li class="nav-item"><a class="nav-link" href="#section1">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section2">About</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdrown" href="#section3">Courses</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item"href="">java-1</a></li>
+                    <li><a class="dropdown-item"href="">java-2</a></li>
+                    <li><a class="dropdown-item"href="">java-3</a></li>
+                </ul></li>
+                <li class="nav-item"><a class="nav-link" href="#section4">Contact</a></li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+              </form>
+            </div>
+            <!-- menu navigators -->
+        </div>
+        <!-- nav container -->
+    </nav>
+    
+
+
+    <main style="margin-top: 60px;" class="text-center sticky-top text-white" >
+           
+              <section class="bg-info p-5 text-center" style= "padding: 100px 20px ;" id="section1" >
+                 <h4>Home Content</h4>
+                 <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Repellat eius earum maxime itaque, iste delectus quas aliquam tempore fuga 
+                 ducimus quam sapiente, <br>quo temporibus asperiores, 
+                 reprehenderit incidunt omnis voluptatibus voluptatum.</span></p>
+              </section>
+           </div>
+      
+   
+        <section class="bg-warning p-5 text-center" style="height: 400px;" id="section2">
+            <h4>About Content</h4>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Repellat eius earum maxime itaque, iste delectus quas aliquam tempore fuga 
+                 ducimus quam sapiente, <br>quo temporibus asperiores, 
+                reprehenderit incidunt omnis voluptatibus voluptatum.</span></p>
+        </section>
+     </div>
+
+     <div id="section3">
+        <section class="bg-primary p-5 text-center" style="height: 400px;">
+            <h4>Course Content</h4>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Repellat eius earum maxime itaque, iste delectus quas aliquam tempore fuga 
+                 ducimus quam sapiente, <br>quo temporibus asperiores, 
+                reprehenderit incidunt omnis voluptatibus voluptatum.</span></p>
+        </section>
+    </div>
+    <div id="section4">
+        <section class="bg-danger p-5 text-center" style="height: 400px;">
+            <h4>Contact Content</h4>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Repellat eius earum maxime itaque, iste delectus quas aliquam tempore fuga 
+                 ducimus quam sapiente, <br>quo temporibus asperiores, 
+                reprehenderit incidunt omnis voluptatibus voluptatum.</span></p>
+        </section>
+    </div>
+        <footer class="py-5 bg-dark text-white" >
+            <h6>Copyrigt &copy;- Bootstrap Tamil</h6>
+        </footer>
+        </main>
+   
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    
+</body>
+</html>
